@@ -1,0 +1,92 @@
+/* assets/css/main.css */
+/* أنماط مخصصة للمشروع */
+
+:root {
+  --primary-color: #0d6efd;
+  --secondary-color: #6c757d;
+  --dark-color: #212529;
+  --light-color: #f8f9fa;
+}
+
+/* أنماط عامة */
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: #333;
+}
+
+/* تحسين الروابط */
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* تحسين الـ Header */
+.navbar-brand {
+  font-family: 'Arial Black', sans-serif;
+  letter-spacing: 1px;
+}
+
+.top-bar {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+/* تحسين الـ Footer */
+footer {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+.social-icons a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+}
+
+/* أنماط للصفحة الرئيسية */
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.category-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* أنماط المنتجات */
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+/* تحسين الـ Responsive */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .footer-col {
+    margin-bottom: 30px;
+  }
+}
